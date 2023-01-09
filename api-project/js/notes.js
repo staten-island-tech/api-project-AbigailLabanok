@@ -1,10 +1,14 @@
+//VIDEO 1
+
 /* console.log("start");
 setTimeout(() => {
   console.log("Timer");
 }, 3000);
 console.log("end"); */
 
-function greet(name) {
+//VIDEO 2
+
+/* function greet(name) {
   const greetPromise = new Promise(function (resolve, reject) {
     //this is a callback function --> we get a promise, what do we do w/ it
     resolve(`hello ${name}`);
@@ -17,7 +21,25 @@ const suzy = greet(`suzy`);
 suzy.then((result) => {
   //how to work with resolved promises
   console.log(result); //once the promise resolves, take the result of that promise and log it
-});
+}); */
+
+//VIDEO 3
+
+const api = "https://api.quotable.io/random";
+
+async function getData(api) {
+  //takes an argument
+  try {
+    const response = await fetch(api);
+    const data = await response.json(); //makes the data into JSON (javascript) object you can use
+    console.log(data.content); //logs the data into the console
+    document.getElementById("api-response").textContent = data.content; //logs the data onto the screen isntead of into console
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+getData(api);
 
 //js can only handle one process at a time
 //Call Stack - operates on a first-in & last-out basis
@@ -32,3 +54,5 @@ suzy.then((result) => {
 //you will get some date and in the process of getting data you will get a promise and then you will do something with that data
 //you can't do anything with promises themselves --> you need to wait until they are resolved and then do .then and then do something with them
 //async await is better than .then and makes it easier to understand
+//async is always followed by await
+//trycatch is like if else for when you are using promises or async js
