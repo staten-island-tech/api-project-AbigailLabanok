@@ -61,6 +61,6 @@ body {
 label{
   font-size: var(--h2);
 }
-select{
+input{
   font-size: var(--h3);
 }
