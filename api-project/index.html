@@ -8,9 +8,15 @@
   </head>
   <body>
     <h1>not sure yet</h1>
-    <input type="submit" value="viper" class="btn" id="viper">
-<!--  <label for="player-card">Which Agent?</label>
-    <input type="text" id="agent" class="text-box" required> -->
+    <label for="player-card">Choose a Player Card:</label>
+    <select name="player-card">
+      <option>None</option>
+      <option id="viper-option">Viper</option>
+      <option>Killjoy</option>
+      <option>Jett</option>
+      <option>Reyna</option>
+    </select>
+    <button class="btn" id="btn">Get Card!</button>
     <section class="display"></section>
     <script type="module" src="./js/main.js"></script>
   </body>

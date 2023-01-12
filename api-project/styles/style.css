@@ -61,6 +61,10 @@ body {
 label{
   font-size: var(--h2);
 }
-input{
+input, select, button{
   font-size: var(--h3);
+}
+.player-card {
+  margin: 5rem auto;
+  border: solid 1rem var(--black);
 }
