@@ -1,7 +1,7 @@
 const DOMSelectors = {
-  viperOption: document.getElementById("viper-option"),
+  agent: document.getElementById("agent"),
   display: document.querySelector(".display"),
-  getCardBtn:document.getElementById("btn")
+  getCardBtn:document.getElementById("btn"),
 };
 
 export { DOMSelectors };
