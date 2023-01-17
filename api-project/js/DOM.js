@@ -1,5 +1,5 @@
 const DOMSelectors = {
-  agent: document.getElementById("agent"),
+  select: document.getElementById("select"),
   display: document.querySelector(".display"),
   getCardBtn:document.getElementById("btn"),
 };
