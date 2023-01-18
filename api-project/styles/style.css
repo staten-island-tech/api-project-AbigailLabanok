@@ -59,10 +59,12 @@ h5 {
 body {
   background-color: var(--primary);
 }
-label{
+label {
   font-size: var(--h2);
 }
-input, select, button{
+input,
+select,
+button {
   font-size: var(--h3);
 }
 .player-card {
@@ -87,4 +89,13 @@ button:visited {
 button:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 1rem rgba(0, 0, 0, 0.2);
+}
+select {
+  width: 20rem;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
