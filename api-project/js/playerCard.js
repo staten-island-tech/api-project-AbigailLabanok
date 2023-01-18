@@ -1,5 +1,6 @@
-const playercardApi = "https://valorant-api.com/v1/playercards";
 import { DOMSelectors } from "./DOM";
+
+const playercardApi = "https://valorant-api.com/v1/playercards";
 
 async function getPlayerCard() {
   DOMSelectors.display.innerHTML = "";
@@ -446,6 +447,6 @@ async function getPlayerCard() {
   } else {
     console.log("error");
   }
-}
+};
 
 export { getPlayerCard };
