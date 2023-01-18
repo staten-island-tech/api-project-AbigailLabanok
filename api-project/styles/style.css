@@ -15,6 +15,7 @@ body,
   --color1: #fff7eb;
   --color2: #bd4f40;
   --color3: #d18375;
+  --color4: #c12612c7;
 
   /*Intentions*/
   --primary: var(--color1);
