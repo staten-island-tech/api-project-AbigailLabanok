@@ -447,6 +447,6 @@ async function getPlayerCard() {
   } else {
     console.log("error");
   }
-};
+}
 
 export { getPlayerCard };
