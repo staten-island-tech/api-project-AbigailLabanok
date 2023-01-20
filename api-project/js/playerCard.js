@@ -5,7 +5,7 @@ const playercardApi = "https://valorant-api.com/v1/playercards";
 async function getPlayerCard() {
   DOMSelectors.display.innerHTML = "";
 
-  if (DOMSelectors.select.value === "Brimstone") {
+  if (DOMSelectors.selectCard.value === "Brimstone") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -28,7 +28,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Phoenix") {
+  if (DOMSelectors.selectCard.value === "Phoenix") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -49,7 +49,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Sage") {
+  if (DOMSelectors.selectCard.value === "Sage") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -72,7 +72,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Sova") {
+  if (DOMSelectors.selectCard.value === "Sova") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -95,7 +95,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Viper") {
+  if (DOMSelectors.selectCard.value === "Viper") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -119,7 +119,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Cypher") {
+  if (DOMSelectors.selectCard.value === "Cypher") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -142,7 +142,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Reyna") {
+  if (DOMSelectors.selectCard.value === "Reyna") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -165,7 +165,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Killjoy") {
+  if (DOMSelectors.selectCard.value === "Killjoy") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -186,7 +186,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Breach") {
+  if (DOMSelectors.selectCard.value === "Breach") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -207,7 +207,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Omen") {
+  if (DOMSelectors.selectCard.value === "Omen") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -230,7 +230,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Jett") {
+  if (DOMSelectors.selectCard.value === "Jett") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -251,7 +251,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Raze") {
+  if (DOMSelectors.selectCard.value === "Raze") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -272,7 +272,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Skye") {
+  if (DOMSelectors.selectCard.value === "Skye") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -295,7 +295,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Yoru") {
+  if (DOMSelectors.selectCard.value === "Yoru") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -318,7 +318,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Astra") {
+  if (DOMSelectors.selectCard.value === "Astra") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -339,7 +339,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Kay/o") {
+  if (DOMSelectors.selectCard.value === "Kay/o") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -360,7 +360,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Chamber") {
+  if (DOMSelectors.selectCard.value === "Chamber") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -381,7 +381,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Neon") {
+  if (DOMSelectors.selectCard.value === "Neon") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -404,7 +404,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Fade") {
+  if (DOMSelectors.selectCard.value === "Fade") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
@@ -425,7 +425,7 @@ async function getPlayerCard() {
     console.log("error");
   }
 
-  if (DOMSelectors.select.value === "Harbor") {
+  if (DOMSelectors.selectCard.value === "Harbor") {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
