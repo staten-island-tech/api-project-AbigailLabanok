@@ -9,6 +9,7 @@ async function getPlayerCard() {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
+      console.log(data)
       data.data
         .filter((element) =>
           element.displayName.includes("No One Left Behind Card")

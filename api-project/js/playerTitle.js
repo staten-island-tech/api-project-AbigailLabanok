@@ -4,11 +4,12 @@ const playertitleApi = "https://valorant-api.com/v1/playertitles";
 
 async function getplayerTitle() {
   DOMSelectors.display.innerHTML = "";
-  let title = DOMSelectors.selectTitle.value;
 
   try {
     const response = await fetch(playertitleApi);
     const data = await response.json();
+    console.log(data);
+    let title = DOMSelectors.selectTitle.value;
     data.data
       .filter((element) => element.displayName.includes(`${title} Title`))
       .forEach((el) => {
