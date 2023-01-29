@@ -9,7 +9,7 @@ async function getPlayerCard() {
     try {
       const response = await fetch(playercardApi);
       const data = await response.json();
-      console.log(data)
+      console.log(data);
       data.data
         .filter((element) =>
           element.displayName.includes("No One Left Behind Card")
@@ -17,7 +17,7 @@ async function getPlayerCard() {
         .forEach((el) => {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
-            `<div>
+            `<div class="player-card-div">
                 <img class="player-card" src="${el.largeArt}"/>
                 </div>`
           );
@@ -433,6 +433,52 @@ async function getPlayerCard() {
       data.data
         .filter((element) =>
           element.displayName.includes("Wake of Betrayal Card")
+        )
+        .forEach((el) => {
+          DOMSelectors.display.insertAdjacentHTML(
+            "beforeend",
+            `<div>
+                <img class="player-card" src="${el.largeArt}"/>
+                </div>`
+          );
+        });
+    } catch (err) {
+      console.error(err);
+    }
+  } else {
+    console.log("error");
+  }
+
+  if (DOMSelectors.selectCard.value === "Undercity") {
+    try {
+      const response = await fetch(playercardApi);
+      const data = await response.json();
+      data.data
+        .filter((element) =>
+          element.displayName.includes("Welcome to the Undercity Card")
+        )
+        .forEach((el) => {
+          DOMSelectors.display.insertAdjacentHTML(
+            "beforeend",
+            `<div>
+                <img class="player-card" src="${el.largeArt}"/>
+                </div>`
+          );
+        });
+    } catch (err) {
+      console.error(err);
+    }
+  } else {
+    console.log("error");
+  }
+
+  if (DOMSelectors.selectCard.value === "#SAVEWIDEJOY") {
+    try {
+      const response = await fetch(playercardApi);
+      const data = await response.json();
+      data.data
+        .filter((element) =>
+          element.uuid.includes("fcceda12-4815-17d0-ffc1-698aac40777a")
         )
         .forEach((el) => {
           DOMSelectors.display.insertAdjacentHTML(

@@ -11,12 +11,12 @@ async function getplayerTitle() {
     console.log(data);
     let title = DOMSelectors.selectTitle.value;
     data.data
-      .filter((element) => element.displayName.includes(`${title} Title`))
+      .filter((element) => element.displayName.includes(`${title}`))
       .forEach((el) => {
         DOMSelectors.display.insertAdjacentHTML(
           "beforeend",
-          `<div>
-                <h3 class="player-title>${el.displayName}</h3>
+          `<div class="player-title-div">
+                <h3 class="player-title">${el.titleText}</h3>
                 </div>`
         );
       });

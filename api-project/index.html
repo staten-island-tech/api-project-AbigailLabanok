@@ -3,63 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter&family=Noto+Sans+NKo&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
+<!--     <img class="image" src="/api-project/imgs/banner background copy.png" alt="banner background image" /> -->
     <h1>Make Your Own Valorant Banner!</h1>
-    <section class="input">
-      <label for="player-card">Choose a Player Card:</label>
-      <select name="player-card" class="select" id="select-card">
-        <option>None</option>
-        <option>Brimstone</option>
-        <option>Phoenix</option>
-        <option>Sage</option>
-        <option>Sova</option>
-        <option>Viper</option>
-        <option>Cypher</option>
-        <option>Reyna</option>
-        <option>Killjoy</option>
-        <option>Breach</option>
-        <option>Omen</option>
-        <option>Jett</option>
-        <option>Raze</option>
-        <option>Skye</option>
-        <option>Yoru</option>
-        <option>Astra</option>
-        <option>Kay/o</option>
-        <option>Chamber</option>
-        <option>Neon</option>
-        <option>Fade</option>
-        <option>Harbor</option>
-      </select>
-      <label for="player-card">Choose a Player Title:</label>
-      <select name="title" class="select" id="select-title">
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>Toxic</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-        <option>None</option>
-      </select>
+    <section class="everything">
+      <section class="input">
+        <label for="player-card">Choose a Player Card:</label>
+        <select name="player-card" class="select" id="select-card">
+          <option>None</option>
+          <option>Brimstone</option>
+          <option>Phoenix</option>
+          <option>Sage</option>
+          <option>Sova</option>
+          <option>Viper</option>
+          <option>Cypher</option>
+          <option>Reyna</option>
+          <option>Killjoy</option>
+          <option>Breach</option>
+          <option>Omen</option>
+          <option>Jett</option>
+          <option>Raze</option>
+          <option>Skye</option>
+          <option>Yoru</option>
+          <option>Astra</option>
+          <option>Kay/o</option>
+          <option>Chamber</option>
+          <option>Neon</option>
+          <option>Fade</option>
+          <option>Harbor</option>
+          <option>Undercity</option>
+          <option>#SAVEWIDEJOY</option>
+        </select>
+        <label for="player-card">Choose a Player Title:</label>
+        <select name="title" class="select" id="select-title">
+          <option>None</option>
+          <option>Toxic</option>
+          <option>Unlucky</option>
+          <option>Spicy</option>
+          <option>Boosted</option>
+          <option>Hardstuck</option>
+          <option>Aimbot</option>
+          <option>Boomer</option>
+          <option>Cringe</option>
+          <option>Cupcake</option>
+          <option>Habibi</option>
+          <option>Potato</option>
+          <option>Biohazard</option>
+          <option>Empress</option>
+          <option>Hotshot</option>
+          <option>Techie</option>
+          <option>Lurker</option>
+          <option>Wide</option>
+          <option>Cheap</option>
+          <option>Lucky</option>
+          <option>Savage</option>
+        </select>
+        <label for="name">Enter Username:</label>
+        <input type="text" id="username" name="username" required size="12" />
+      </section>
+      <button class="btn" id="btn">Get Card!</button>
+      <section class="display"></section>
     </section>
-    <button class="btn" id="btn">Get Card!</button>
-    <section class="display"></section>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
