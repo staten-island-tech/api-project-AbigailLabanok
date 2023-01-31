@@ -18,7 +18,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div class="player-card-div">
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -39,7 +39,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -62,7 +62,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -85,7 +85,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -109,7 +109,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -132,7 +132,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -155,7 +155,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -176,7 +176,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -197,7 +197,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -220,7 +220,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -241,7 +241,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -262,7 +262,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -285,7 +285,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -308,7 +308,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -329,7 +329,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -350,7 +350,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -371,7 +371,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -394,7 +394,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -415,7 +415,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -438,7 +438,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -461,7 +461,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });
@@ -484,7 +484,7 @@ async function getPlayerCard() {
           DOMSelectors.display.insertAdjacentHTML(
             "beforeend",
             `<div>
-                <img class="player-card" src="${el.largeArt}"/>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
                 </div>`
           );
         });

@@ -5,7 +5,7 @@ function getUsername() {
   let username = DOMSelectors.usernameInput.value;
   DOMSelectors.display.insertAdjacentHTML(
     "beforeend",
-    `<h3 class="username">${username}</h3>`
+    `<h2 class="username">${username}</h2>`
   );
 }
 

@@ -13,10 +13,9 @@
     <title>Vite App</title>
   </head>
   <body>
-<!--     <img class="image" src="/api-project/imgs/banner background copy.png" alt="banner background image" /> -->
     <h1>Make Your Own Valorant Banner!</h1>
-    <section class="everything">
-      <section class="input">
+    <main class="everything">
+      <form class="input">
         <label for="player-card">Choose a Player Card:</label>
         <select name="player-card" class="select" id="select-card">
           <option>None</option>
@@ -69,10 +68,10 @@
         </select>
         <label for="name">Enter Username:</label>
         <input type="text" id="username" name="username" required size="12" />
-      </section>
+      </form>
       <button class="btn" id="btn">Get Card!</button>
       <section class="display"></section>
-    </section>
+    </main>
     <script type="module" src="./js/main.js"></script>
   </body>
 </html>
