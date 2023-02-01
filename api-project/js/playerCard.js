@@ -2,6 +2,27 @@ import { DOMSelectors } from "./DOM";
 
 const playercardApi = "https://valorant-api.com/v1/playercards";
 
+async function playerCardStart() {
+  try {
+    const response = await fetch(playercardApi);
+    const data = await response.json();
+    data.data
+      .filter((element) =>
+        element.displayName.includes("Welcome to the Undercity Card")
+      )
+      .forEach((el) => {
+        DOMSelectors.display.insertAdjacentHTML(
+          "beforeend",
+          `<div>
+                <img class="player-card" src="${el.largeArt}" alt="${el.displayName}"/>
+                </div>`
+        );
+      });
+  } catch (error) {
+    console.error(err);
+  }
+}
+
 async function getPlayerCard() {
   DOMSelectors.display.innerHTML = "";
 
@@ -496,4 +517,5 @@ async function getPlayerCard() {
   }
 }
 
+export { playerCardStart };
 export { getPlayerCard };
